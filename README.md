@@ -5,7 +5,7 @@ This repository contains tools for robotic software engineering.
 Tools are primarily to assist human software developers.
 Bots are software agents tasked with specific roles - coordinator, helper, scheduler, ...
 
-`pip install gen-bot-tools`
+#`pip install gen-bot-tools`
 
 
 
