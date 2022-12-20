@@ -1,3 +1,7 @@
+# This script deploys a single bot
+
+from bots import ChatBot, MemoryBot
+
 import speech_recognition as sr
 import sys, requests
 

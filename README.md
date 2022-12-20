@@ -10,7 +10,8 @@ Bots are software agents tasked with specific roles - coordinator, helper, sched
 
 
 Tools:
-  * audio and text chat with specific bots (programming assistance, healthcare provision, 
+  * audio and text chat with specific bots or teams of bots:
+          (programming assistance, healthcare provision) 
   * simple key-value memory
   * retraining and model fine-tuning
   * image APIs
