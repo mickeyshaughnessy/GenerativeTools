@@ -19,9 +19,10 @@ def handle_speech_input(request):
 
 
 if __name__ == "__main__":
-    bot = Robot(p=port)
+    port = 9000
+    bot = ChatBot(p=port)
 
     app = falcon.App()
     app.add_route('/listen', bot)
-    httpd = simple_server.make_server('0.0.0.0', int(sys.argv[1]), app)
+    httpd = simple_server.make_server('0.0.0.0',port,app)
     httpd.serve_forever() 
